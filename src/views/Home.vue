@@ -1,5 +1,6 @@
 <template>
   <div id="container__home">
+    <Screen />
     <div class="profil">
       <div
         class="profil__pic"
@@ -32,10 +33,14 @@
 </template>
 
 <script>
+import Screen from "../components/Screen";
 import profilPicUrl from "../assets/profil_pix.png";
 
 export default {
   name: "Home",
+  components: {
+    Screen
+  },
   data() {
     return {
       profilPicUrl,
