@@ -23,19 +23,19 @@ export default {
 
 <style scoped lang="scss">
 h1 {
-    font-size: 6em;
+    font-size: 3vw;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.5vw;
     font-style: italic;
 }
 
 .name {
     padding-top: 5rem;
-    min-width: 70vw;
-    min-height: 40vh;
+    width: 60vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;

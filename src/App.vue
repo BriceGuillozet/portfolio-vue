@@ -18,6 +18,12 @@
 
 
 <style lang="scss">
+@media screen and (max-width: 550px) {
+    html {
+        font-size: 0.8em;
+    }    
+}
+
 #app {
     font-family: "Roboto Mono", monospace;
     width: 100vw;
@@ -54,4 +60,9 @@
         border-bottom: 0.2rem solid #0d2437;
     }
 }
+
+h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
 </style>

@@ -31,10 +31,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
 
 #projects {
     width: 100%;
@@ -48,7 +44,7 @@ h1 {
 
 #container__project {
     width: 85%;
-    height: 100%;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

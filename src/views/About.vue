@@ -1,6 +1,10 @@
 <template>
-    <div id="container__about">
-        <h1 id="about">Qui suis-je ?</h1>
+    <div class="about">
+        <h1> Qui suis-je ?</h1>
+        <div
+            class="about__pic"
+            :style="{ backgroundImage: `url(${profilPicUrl})` }"
+        ></div>
         <p>
             Depuis l'enfance je me suis passionné pour les sciences et la
             technologie. Avec un parcours varié, articulé autour des
@@ -20,26 +24,35 @@
     </div>
 </template>
 
+<script>
+import profilPicUrl from "../assets/profil_pix.png";
+
+export default {
+    data() {
+        return {
+            profilPicUrl,
+        };
+    },
+};
+</script>
+
+
 <style scoped lang="scss">
-#container__about {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    width: 80%;
-    height: 40vh;
+.about {
+    width: 70vw;
+    height: 80vh;
     line-height: 2rem;
     text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-    h1 {
-        font-size: 2em;
-        font-weight: bold;
-    }
-
-    p {
-        margin-top: 2rem;
+    &__pic {
+        width: 10vw;
+        height: 10vw;
+        background-position: center;
+        background-size: cover;
+        clip-path: circle(50% at 50% 50%);
     }
 }
 </style>
