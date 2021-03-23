@@ -9,6 +9,7 @@
             <a
                 href="https://drive.google.com/file/d/1oz7uBJm7CP8I0x5KcNo7Rw83F5S5lJrd/view?usp=sharing"
                 class="nav__items"
+                target="_blank"
                 >CV</a
             >
         </div>
