@@ -95,13 +95,12 @@ export default {
 }
 
 .project__name {
-    padding: 1rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .project__description {
     text-align: center;
     font-style: italic;
-    padding-bottom: 1rem;
 }
 </style>

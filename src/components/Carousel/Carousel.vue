@@ -27,14 +27,14 @@ export default {
     methods: {
         next () {
             this.index++;
-            this.direction = "right";
+            this.direction = "left";
             if (this.index >= this.slidesCount) {
                 this.index = 0; 
             }
         },
         prev () {
             this.index--;
-            this.direction = "left";
+            this.direction = "right";
             if (this.index < 0) {
                 this.index = this.slidesCount - 1; 
             }
