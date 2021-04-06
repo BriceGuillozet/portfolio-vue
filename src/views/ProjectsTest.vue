@@ -3,15 +3,29 @@
         <h1>Projets</h1>
         <carousel id="container__project">
             <carousel-slide class="project">
-                <img
-                    src="/img/projects/pokedex.png"
-                    alt="Une version web de pokédex"
-                />
+                <a
+                    class="project__img"
+                    href="https://pokedex-node.herokuapp.com/"
+                >
+                    <img
+                        src="/img/projects/pokedex.png"
+                        alt="Une version web de pokédex"
+                    />
+                </a>
                 <div class="project__name">Pokédex</div>
+                <div class="project__button">
+                    <a href="https://pokedex-node.herokuapp.com/"
+                        >Voir la démo</a
+                    >
+                    <a href="https://github.com/BriceGuillozet/pokedex"
+                        >Voir le code</a
+                    >
+                </div>
                 <div class="project__description">
                     Pokédex avec HTML/CSS/Node.Js/PostGreSQL
                 </div>
             </carousel-slide>
+
             <carousel-slide class="project">
                 <img
                     src="/img/projects/acey deucey.png"
@@ -81,23 +95,49 @@ export default {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-around;
+    & img {
+        padding: 1rem;
+        width: 50%;
+        border-radius: 1em;
+        box-shadow: 0 1rem 1rem #222733;
+        @media screen and (max-width: 420px) {
+            width: 100%;
+        }
+    }
 }
 
-.project img {
-    padding: 1rem;
-    width: 50%;
-    box-shadow: 0 0.2rem 0.2rem #222733;
-    @media screen and (max-width: 420px) {
-        width : 100%;
-        
-    }
+.project__img {
+    text-align: center;
 }
 
 .project__name {
     font-size: 2rem;
     font-weight: bold;
+}
+
+.project__button {
+    font-size: 0.8em;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        border: rgba(241, 241, 241, 0.3) solid 0.1rem;
+        padding: 0.5rem;
+        background-color: #525e65;
+        box-shadow: 0 0.1rem 0.5rem 0.5rem #222733;
+    }
+    a:hover {
+        color: #0d2437;
+    }
+
+    @media screen and (max-width: 1522px) {
+        flex-direction: column;
+        align-items: center;
+        height: 20vh;
+        width: 100%;
+    }
 }
 
 .project__description {
