@@ -7,6 +7,7 @@ export default new Vuex.Store({
     state: {
         projectsList: [
             {
+                id: 0,
                 name: "Pokédex",
                 image: {
                     source: "/img/projects/pokedex.png",
@@ -15,6 +16,7 @@ export default new Vuex.Store({
                 description: "Pokédex avec HTML/CSS/Node.Js/PostGreSQL"
             },
             {
+                id: 1,
                 name: "Acey Deucey",
                 image: {
                     source: "/img/projects/acey deucey.png",
@@ -23,6 +25,7 @@ export default new Vuex.Store({
                 description: "Jeu de Carte avec HTML/CSS/JavaScript"
             },
             {
+                id: 2,
                 name: "O'Blog",
                 image: {
                     source: "/img/projects/blog.png",

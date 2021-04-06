@@ -1,7 +1,9 @@
 <template>
     <div class="project">
         <img :src="image.source" :alt="image.alt" />
-        <div class="project__name">{{ name }}</div>
+        <div class="project__name">
+            {{ name }}
+        </div>
         <div class="project__description">
             {{ description }}
         </div>
@@ -9,6 +11,7 @@
 </template>
 
 <script>
+
 export default {
     name: "ProjectsItem",
 

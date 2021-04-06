@@ -6,7 +6,7 @@
                 <div class="profil__catch">
                     <strong>Développeur par passion. ❤️</strong>
                 </div>
-                <p>Bienvenu sur mon portfolio.</p>
+                <p>Bienvenue sur mon portfolio.</p>
                 <p>
                     Je suis un développeur web avec un background en science et
                     technologie.
@@ -17,13 +17,16 @@
             </div>
         </div>
         <div class="contact">
-            <a href="https://github.com/BriceGuillozet">
+            <a href="https://github.com/BriceGuillozet" target="_blank">
                 <i class="fab fa-github"></i> Github
             </a>
             <a href="mailto:brice.guillozet@gmail.com">
                 <i class="fas fa-at"></i> brice.guillozet@gmail.com
             </a>
-            <a href="https://www.linkedin.com/in/brice-guillozet/">
+            <a
+                href="https://www.linkedin.com/in/brice-guillozet/"
+                target="_blank"
+            >
                 <i class="fab fa-linkedin"></i> LinkedIn
             </a>
         </div>
