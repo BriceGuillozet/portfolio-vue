@@ -26,7 +26,7 @@ export default {
 
 <style scoped lang="scss">
 .slide-right-enter-active {
-    animation: slideRightIn 1s;
+    animation: slideRightIn 0.5s;
 }
 
 .slide-right-leave-active {
@@ -50,7 +50,7 @@ export default {
 }
 
 .slide-left-enter-active {
-    animation: slideLeftIn 1s;
+    animation: slideLeftIn 0.5s;
 }
 
 .slide-left-leave-active {

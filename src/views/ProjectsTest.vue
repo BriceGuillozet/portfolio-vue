@@ -64,6 +64,7 @@ export default {
     align-items: center;
     justify-content: space-evenly;
     padding-top: 5rem;
+    overflow: hidden;
 }
 
 #container__project {
